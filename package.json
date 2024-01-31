@@ -1,0 +1,23 @@
+{
+  "name": "pnpm测试",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changeset": "changeset",
+    "vp": "changeset version",
+    "publish": "changeset publish --registry=https://registry.npmjs.com/"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
+}
